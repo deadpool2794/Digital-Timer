@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  padding: 64px;
+  font-family: roboto;
+}
+
+.heading {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.actual-container {
+  display: flex;
+  width: 100%;
+}
+
+.icon {
+  height: 28px;
+  width: 28px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+.button {
+  display: flex;
+  background-color: transparent;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: bold;
+  font-size: large;
+}
+
+.ano-text {
+  font-weight: bold;
+  font-size: small;
+}
+
+.increment-decrement-container {
+  display: flex;
+}
+
+.time-limit {
+  margin: 12px;
+  width: 70px;
+  text-align: center;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  font-weight: bold;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.increase {
+  font-size: 40px;
+  margin: 8px;
+}
+
+.timer-count {
+  color: #00d9f5;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.timer-container {
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-limit-increment-decrement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 70vh;
+  width: 60%;
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-details {
+  width: 40%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+}
